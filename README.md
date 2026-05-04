@@ -1,13 +1,4 @@
-**GitHub Description:**
-```
-A FUSE-based userspace filesystem that mounts DOOM WAD files as browsable Linux directories, built in C++ for COP4600 (Operating Systems) at the University of Florida.
-```
-
----
-
-**README.md:**
-
-```markdown
+README.md
 # Custom Linux File System
 A FUSE-based userspace filesystem that parses and mounts DOOM WAD files as browsable Linux directory trees. Developed as part of COP4600 (Operating Systems) at the University of Florida.
 
@@ -83,4 +74,3 @@ mkdir ./mountdir/NS
 - **Data Structures:** N-ary tree + unordered_map
 - **Build:** GNU Make, `ar` (static library)
 - **Testing:** Google Test
-```
